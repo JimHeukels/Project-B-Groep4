@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,13 +11,10 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             List<Movie> lstMovies = new List<Movie>();
-            lstMovies.Add(new Movie());
-            lstMovies[0].Name = "The Lord of the Rings";
-            lstMovies[0].Genre = "Adventure";
+            lstMovies.Add(new Movie("The Lord of the Rings", "Adventure"));
+            lstMovies.Add(new Movie("The Hobbit", "Adventure"));
 
-            lstMovies.Add(new Movie());
-            lstMovies[1].Name = "The Hobbit";
-            lstMovies[1].Genre = "Adventure";
+            lstMovies.Add(new Movie("The War", "Action"));
 
             foreach (Movie oMovie in lstMovies)
             {
