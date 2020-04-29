@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mg3Eu0lAVaMKN64qZtAWlSamIu8mytx6ctXqNLP0+6ehSJBOJbcdqOvWLcWTKV7TBAFVKWpETbQKickGqwRUow==",
+  "success": true,
+  "projectFilePath": "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\ProjectB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jim\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
