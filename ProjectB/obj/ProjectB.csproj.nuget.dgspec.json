@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\ProjectB.csproj": {}
+    "D:\\Project-B-Groep4\\ProjectB\\ProjectB.csproj": {}
   },
   "projects": {
-    "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\ProjectB.csproj": {
+    "D:\\Project-B-Groep4\\ProjectB\\ProjectB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\ProjectB.csproj",
+        "projectUniqueName": "D:\\Project-B-Groep4\\ProjectB\\ProjectB.csproj",
         "projectName": "ProjectB",
-        "projectPath": "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\ProjectB.csproj",
-        "packagesPath": "C:\\Users\\Jim\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\obj\\",
+        "projectPath": "D:\\Project-B-Groep4\\ProjectB\\ProjectB.csproj",
+        "packagesPath": "C:\\Users\\joshu\\.nuget\\packages\\",
+        "outputPath": "D:\\Project-B-Groep4\\ProjectB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\joshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
