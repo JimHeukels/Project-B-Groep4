@@ -8,6 +8,8 @@ namespace JimFilmsTake2
     {
         static void Main(string[] args)
         {
+
+
             // maken een bioscoop met 1 scherm
             // maak de repository aan, de koppeling tussen onze code en de database
             var repo = new BioscoopRepository();
@@ -29,6 +31,13 @@ namespace JimFilmsTake2
 
             //var repo = new BioscoopRepository();
             var bioscopen = repo.GetBioscopen();
+
+            var film1 = new Film("film1", "20.00", "20-2-2020", "Horror");
+            var film2 = new Film("film2", "22.00", "08-03-2020", "Comedie");
+            var film3 = new Film("film3", "15.00", "25-06-2021", "Romantisch");
+            
+            var repo2 = new FilmRepository();
+            repo2.Optie_Kiezen();
 
         }
     }

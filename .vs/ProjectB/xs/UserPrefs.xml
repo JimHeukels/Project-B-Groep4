@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{8C6B00F8-3511-497D-A824-BD3FB7E17000}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectB/Database/FilmRepository.cs">
+    <Files>
+      <File FileName="ProjectB/Model/Model.cs" Line="32" Column="74" />
+      <File FileName="ProjectB/program.cs" />
+      <File FileName="ProjectB/Database/Jsonmodel.cs" />
+      <File FileName="ProjectB/Database/BioscoopRepository.cs" />
+      <File FileName="ProjectB/Database/db.json" />
+      <File FileName="ProjectB/Database/FilmRepository.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProjectB" expanded="True">
+            <Node name="ProjectB" expanded="True">
+              <Node name="Database" expanded="True">
+                <Node name="FilmRepository.cs" selected="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ProjectB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

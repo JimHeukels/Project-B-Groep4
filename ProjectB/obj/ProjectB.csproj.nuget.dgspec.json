@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\ProjectB.csproj": {}
+    "/Users/isabellestienen/Documents/Project-B-Groep4/ProjectB/ProjectB.csproj": {}
   },
   "projects": {
-    "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\ProjectB.csproj": {
+    "/Users/isabellestienen/Documents/Project-B-Groep4/ProjectB/ProjectB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\ProjectB.csproj",
+        "projectUniqueName": "/Users/isabellestienen/Documents/Project-B-Groep4/ProjectB/ProjectB.csproj",
         "projectName": "ProjectB",
-        "projectPath": "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\ProjectB.csproj",
-        "packagesPath": "C:\\Users\\Jim\\.nuget\\packages\\",
-        "outputPath": "C:\\School\\2019-2020\\ProjectB\\ProjectB\\ProjectB\\obj\\",
+        "projectPath": "/Users/isabellestienen/Documents/Project-B-Groep4/ProjectB/ProjectB.csproj",
+        "packagesPath": "/Users/isabellestienen/.nuget/packages/",
+        "outputPath": "/Users/isabellestienen/Documents/Project-B-Groep4/ProjectB/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/isabellestienen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -20,11 +20,22 @@ namespace JimFilmsTake2.Model
     }
     public class Film
     {
-        public string Naam { get; set; }
-        public FilmRating Rating { get; set; }
+        public string Titel { get; set; }
+        public string Tijd { get; set; }
+        public string Datum { get; set; }
+        public string Genre { get; set; }
         public int SpeelDuur { get; set; }
         public string Beschrijving { get; set; }
-        public bool DrieD { get; set; }
+        public string Schermtype { get; set; }
+        public FilmRating Rating { get; set; }
+
+        public Film(string titel, string tijd, string datum, string genre)
+        {
+            this.Titel = titel;
+            this.Tijd = tijd;
+            this.Datum = datum;
+            this.Genre = genre;
+        }
     }
     public class Stoel
     {

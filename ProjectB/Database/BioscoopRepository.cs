@@ -10,7 +10,7 @@ namespace JimFilmsTake2.Db
     {
 
         private JsonModel _database { get; set; }
-        public static readonly string FILEPATH = @"C:\School\2019-2020\ProjectB\ProjectB\ProjectB\Database\db.json";
+        public static readonly string FILEPATH = @"/Users/isabellestienen/Documents/Project-B-Groep4/ProjectB/Database/db.json";
 
         public BioscoopRepository()
         {
@@ -71,5 +71,10 @@ namespace JimFilmsTake2.Db
         {
             return _database.Bioscopen;
         }
+           
+
+      
+
     }
+
 }
