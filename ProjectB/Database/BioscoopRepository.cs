@@ -67,6 +67,55 @@ namespace JimFilmsTake2.Db
 
             }
         }
+
+        public void ToonBioscopen()
+        {
+            Console.WriteLine("Dit zijn de huidige bioscopen in het systeem:");
+            int BiosIndex = 1;
+            foreach (var _bioscoop in _database.Bioscopen)
+            {
+                Console.WriteLine($"({BiosIndex}) {_bioscoop.Naam}");
+                BiosIndex++;
+            }
+        }
+
+        public void VerwijderBioscoop()
+        {
+            Console.WriteLine("wilt u een bioscoop verwijderen? J/N");
+            var antwoord = Console.ReadLine();
+
+            if (antwoord == "J")
+            {
+                ToonBioscopen();
+
+                Console.WriteLine("Welke bioscoop wilt u verwijderen? Typ cijfer van bios");
+                var BioscoopNummer = Convert.ToInt32(Console.ReadLine());
+                var gekozenBioscoop = this._database.Bioscopen[BioscoopNummer - 1];
+
+                Console.WriteLine($"Wilt u {gekozenBioscoop.Naam} verwijderen? J/N");
+                var verwijderAntwoord = Console.ReadLine();
+
+                if (verwijderAntwoord == "J")
+                {
+                    this._database.Bioscopen.Remove(gekozenBioscoop);
+                    UpdateData();
+                    Console.WriteLine($"Bioscoop {gekozenBioscoop.Naam} is verwijderd");
+                    Console.WriteLine("\n----\n");
+                    ToonBioscopen();
+
+                }
+
+            }
+            else if (antwoord == "N")
+            {
+                Console.WriteLine("Nou dan niet toch?");
+            }
+
+            {
+
+            }
+        }
+
         public IList<Bioscoop> GetBioscopen()
         {
             return _database.Bioscopen;
