@@ -78,6 +78,32 @@ namespace JimFilmsTake2.Db
                 BiosIndex++;
             }
         }
+        public void ToonFilms()
+        {
+            Console.WriteLine("Dit zijn de huidige films bij de bioscoop:");
+            int FilmIndex = 1;
+            foreach (var _bioscoop in _database.Bioscopen)
+            {
+                if (_bioscoop.Naam == GekozenBiosNaam)
+                {
+
+                }
+            }
+        }
+
+
+        public void KiesBioscoop()
+        {
+            Console.WriteLine("Welke bioscoop wilt u bezoeken?");
+            ToonBioscopen();
+            var BioscoopBezoekAns = Convert.ToInt32(Console.ReadLine());
+            var BioscoopBezoekNaam = this._database.Bioscopen[BioscoopBezoekAns - 1];
+
+            Console.WriteLine($"U heeft gekozen voor {BioscoopBezoekNaam.Naam}.");
+            ToonFilms();
+
+        }
+
 
         public void VerwijderBioscoop()
         {
@@ -87,7 +113,7 @@ namespace JimFilmsTake2.Db
             if (antwoord == "J")
             {
                 ToonBioscopen();
-
+                
                 Console.WriteLine("Welke bioscoop wilt u verwijderen? Typ cijfer van bios");
                 var BioscoopNummer = Convert.ToInt32(Console.ReadLine());
                 var gekozenBioscoop = this._database.Bioscopen[BioscoopNummer - 1];
@@ -103,7 +129,7 @@ namespace JimFilmsTake2.Db
                     Console.WriteLine("\n----\n");
                     ToonBioscopen();
 
-                }
+                }  
 
             }
             else if (antwoord == "N")

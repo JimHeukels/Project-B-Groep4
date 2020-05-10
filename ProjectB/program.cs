@@ -19,7 +19,7 @@ namespace JimFilmsTake2
             var scherm = new Scherm(1);
             scherm.Vertoningen[vertoning.AanvangsTijd.ToString()] = vertoning;
 
-
+            
 
             // bioscoop.Schermen.Add(scherm);
 

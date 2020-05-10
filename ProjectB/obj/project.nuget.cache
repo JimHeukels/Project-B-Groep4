@@ -1,16 +1,10 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "TDWGLVNu6fC1mh4Cf8i/yn46bUTS9GuwfEuYEbRege9LIeXxP6pZNrLja0Rt33Xyp8t4O4JqLbZnE+C8ppfL4Q==",
-  "success": true,
-  "projectFilePath": "D:\\Project-B-Groep4\\ProjectB\\ProjectB.csproj",
-=======
   "dgSpecHash": "LUXIaNx8Pxq0vCgp9XmzAoeaooX5tMRggHNZ/Yi3mdr9CPEv/z7xPkHv2HY2JDA8bdoPkbYLJe5T6dpgoSBmAg==",
   "success": true,
   "projectFilePath": "C:\\School\\2019-2020\\Project B\\Project-B-Groep4\\ProjectB\\ProjectB.csproj",
->>>>>>> Stashed changes
   "expectedPackageFiles": [
-    "C:\\Users\\joshu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Jim\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
