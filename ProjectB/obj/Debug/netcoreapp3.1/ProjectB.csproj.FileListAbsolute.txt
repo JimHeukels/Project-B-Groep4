@@ -13,3 +13,18 @@ C:\School\2019-2020\ProjectB\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.
 C:\School\2019-2020\ProjectB\ProjectB\ProjectB\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\School\2019-2020\ProjectB\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csproj.CoreCompileInputs.cache
 C:\School\2019-2020\ProjectB\ProjectB\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csproj.CopyComplete
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csprojAssemblyReference.cache
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csproj.CoreCompileInputs.cache
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.AssemblyInfoInputs.cache
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.AssemblyInfo.cs
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.dll
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.pdb
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.exe
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.deps.json
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.runtimeconfig.json
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.runtimeconfig.dev.json
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.dll
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\bin\Debug\netcoreapp3.1\ProjectB.pdb
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.csproj.CopyComplete
+C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\obj\Debug\netcoreapp3.1\ProjectB.genruntimeconfig.cache

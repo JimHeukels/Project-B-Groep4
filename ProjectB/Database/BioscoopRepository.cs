@@ -78,18 +78,7 @@ namespace JimFilmsTake2.Db
                 BiosIndex++;
             }
         }
-        public void ToonFilms()
-        {
-            Console.WriteLine("Dit zijn de huidige films bij de bioscoop:");
-            int FilmIndex = 1;
-            foreach (var _bioscoop in _database.Bioscopen)
-            {
-                if (_bioscoop.Naam == GekozenBiosNaam)
-                {
 
-                }
-            }
-        }
 
 
         public void KiesBioscoop()
@@ -100,7 +89,7 @@ namespace JimFilmsTake2.Db
             var BioscoopBezoekNaam = this._database.Bioscopen[BioscoopBezoekAns - 1];
 
             Console.WriteLine($"U heeft gekozen voor {BioscoopBezoekNaam.Naam}.");
-            ToonFilms();
+            //ToonFilms();
 
         }
 
