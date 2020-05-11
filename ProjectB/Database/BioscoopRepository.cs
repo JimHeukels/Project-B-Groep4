@@ -10,7 +10,7 @@ namespace JimFilmsTake2.Db
     {
 
         private JsonModel _database { get; set; }
-        public static readonly string FILEPATH = @"C:\School\2019-2020\ProjectB\ProjectB\ProjectB\Database\db.json";
+        public static readonly string FILEPATH = @"C:\School\2019-2020\Project B\Project-B-Groep4\ProjectB\Database\db.json";
 
         public BioscoopRepository()
         {
@@ -79,21 +79,6 @@ namespace JimFilmsTake2.Db
             }
         }
 
-
-
-        public void KiesBioscoop()
-        {
-            Console.WriteLine("Welke bioscoop wilt u bezoeken?");
-            ToonBioscopen();
-            var BioscoopBezoekAns = Convert.ToInt32(Console.ReadLine());
-            var BioscoopBezoekNaam = this._database.Bioscopen[BioscoopBezoekAns - 1];
-
-            Console.WriteLine($"U heeft gekozen voor {BioscoopBezoekNaam.Naam}.");
-            //ToonFilms();
-
-        }
-
-
         public void VerwijderBioscoop()
         {
             Console.WriteLine("wilt u een bioscoop verwijderen? J/N");
@@ -102,7 +87,7 @@ namespace JimFilmsTake2.Db
             if (antwoord == "J")
             {
                 ToonBioscopen();
-                
+
                 Console.WriteLine("Welke bioscoop wilt u verwijderen? Typ cijfer van bios");
                 var BioscoopNummer = Convert.ToInt32(Console.ReadLine());
                 var gekozenBioscoop = this._database.Bioscopen[BioscoopNummer - 1];
@@ -118,7 +103,7 @@ namespace JimFilmsTake2.Db
                     Console.WriteLine("\n----\n");
                     ToonBioscopen();
 
-                }  
+                }
 
             }
             else if (antwoord == "N")
